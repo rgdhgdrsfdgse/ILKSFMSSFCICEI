@@ -110,42 +110,54 @@ def s3():
 
 
 
+def optpaid():
+  options = int(input(f"""                    Input script ID: """))
+
+  if options == 1:
+    s1()
+  elif options == 2:
+    s2()
+  elif options == 3:
+    s3()
+  elif options == 4:
+    s4()
+
+  else:
+    print("              This is not a valid option.")
+    time.sleep(2)
+
+
 def main():
-    print(Fore.CYAN)
-    print(f""" {Style.BRIGHT}
+	print(Fore.CYAN)
+	print(f""" {Style.BRIGHT}
         ▄▄▄▄▄ ▄ .▄ ▄• ▄▌ ▐ ▄ ·▄▄▄▄  ▄• ▄▌▐▄• ▄ 
         •██  ██▪▐█ █▪██▌•█▌▐███▪ ██ █▪██▌ █▌█▌▪
          {Style.NORMAL}▐█.▪██▀▐█ █▌▐█▌▐█▐▐▌▐█· ▐█▌█▌▐█▌ ·██· 
          ▐█▌·██▌▐▀ ▐█▄█▌██▐█▌██. ██ ▐█▄█▌▪▐█·█▌
          {Fore.BLUE}▀▀▀ ▀▀▀  · ▀▀▀ ▀▀ █▪▀▀▀▀▀•  ▀▀▀ •▀▀ ▀▀{Fore.RESET}
 
+
                  ——————————X——————————
+
                      Need Support?
                  discord.gg/V4kShbhMpx
+
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
+
+          Press Enter to display all scripts!{Fore.RESET}{Style.NORMAL}
+
+                 ——————————X——————————{Fore.CYAN}{Style.BRIGHT}""")
+	input("                           ")
+	print(f"""
                [1] Jailbreak Vynixius GUI
                    [2] Da Hood Crash
                   [3] Da Hood Aimlock
-                          [4]
-                          [5] 
-                          [6]
-                          [7]
-                          [8] {Fore.RESET}{Style.NORMAL}
-                 ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
-            Ctrl F to search for a script!
-             """)
+                 [4]Mortem Metallum GUI
 
-def optpaid():
-    options = int(input(f"""                   Input script ID: """))
+                 {Fore.RESET}{Style.NORMAL}
+    	         ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
+    	    Ctrl F to search for a script!{Fore.RESET}{Style.NORMAL}
+                 ——————————X——————————{Fore.CYAN}{Style.BRIGHT}""")
+	optpaid()
 
-    if options == 1:
-        s1()
-    elif options == 2:
-        s2()
-    elif options == 3:
-        s3()
-    else:
-        print("              This is not a valid option.")
-        time.sleep(2)
 main()
-optpaid()
