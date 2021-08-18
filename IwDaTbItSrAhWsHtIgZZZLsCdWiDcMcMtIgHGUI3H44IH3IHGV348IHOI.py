@@ -55,8 +55,6 @@ def scriptplate():
     print(f"                    Script Pasted!")
     print(f"              Automatically closing in 5s.")
     time.sleep(5)
-    lambda: os.system('cls')
-    exit()
 
 
 
@@ -152,8 +150,6 @@ def main():
     print(f"                    Script Pasted!")
     print(f"              Automatically closing in 5s.")
     time.sleep(5)
-    Lambda: os.system('cls')
-    exit()
   elif options == 2:
     script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodcrash", true))()'
     scriptname = 'Da Hood Crash'
@@ -163,8 +159,6 @@ def main():
     print(f"                    Script Pasted!")
     print(f"              Automatically closing in 5s.")
     time.sleep(5)
-    lambda: os.system('cls')
-    exit()
   elif options == 3:
     script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Karz1337/ZordOverParty/main/Zord3Crack"))()'
     scriptname = 'Da Hood Aimlock'
@@ -174,8 +168,6 @@ def main():
     print(f"                    Script Pasted!")
     print(f"              Automatically closing in 5s.")
     time.sleep(5)
-    lambda: os.system('cls')
-    exit()
   elif options == 4:
     script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hggfgf/scripts/main/mortem%20metallum.txt", true))()'
     scriptname = 'Mortem Metallum GUI'
@@ -185,8 +177,6 @@ def main():
     print(f"                    Script Pasted!")
     print(f"              Automatically closing in 5s.")
     time.sleep(5)
-    lambda: os.system('cls')
-    exit()
   elif options == 5:
     s5()
   elif options == 5:
@@ -285,7 +275,5 @@ def main():
     s50()
   else:
     print("              This is not a valid option.")
-    time.sleep(2)
+    time.sleep(3)
 main()
-
-
