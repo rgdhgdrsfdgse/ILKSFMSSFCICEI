@@ -111,7 +111,7 @@ def s3():
 
 
 def optpaid():
-  options = int(input(f"""                    Input script ID: """))
+  options = int(input(f"""                   Input script ID: """))
 
   if options == 1:
     s1()
@@ -119,8 +119,6 @@ def optpaid():
     s2()
   elif options == 3:
     s3()
-  elif options == 4:
-    s4()
 
   else:
     print("              This is not a valid option.")
@@ -152,7 +150,6 @@ def main():
                [1] Jailbreak Vynixius GUI
                    [2] Da Hood Crash
                   [3] Da Hood Aimlock
-                 [4]Mortem Metallum GUI
 
                  {Fore.RESET}{Style.NORMAL}
     	         ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
