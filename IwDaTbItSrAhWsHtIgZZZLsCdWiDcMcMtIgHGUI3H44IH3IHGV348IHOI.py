@@ -155,6 +155,18 @@ def main():
     	         ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
     	    Ctrl F to search for a script!{Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}""")
-	optpaid()
+	options = int(input(f"""                   Input script ID: """))
+
+	if options == 1:
+		s1()
+	elif options == 2:
+		s2()
+	elif options == 3:
+		s3()
+	else:
+		print("              This is not a valid option.")
+		time.sleep(2)
+		clear()
+		main()
 
 main()
