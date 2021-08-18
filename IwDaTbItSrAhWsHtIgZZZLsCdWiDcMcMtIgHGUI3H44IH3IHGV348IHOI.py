@@ -88,8 +88,18 @@ def main():
                [1] Jailbreak Vynixius GUI
                    [2] Da Hood Crash
                   [3] Da Hood Aimlock
+                 [4] Mortem Metallum GUI
+                 [5] Da Hood Fps Aimlock
+                  [6] KAT Autofarm Gui
+            [7] Strongman Simulator Autofarm
+                    [8] KAT OP Gui
+                [9] Trade Tower Farming Gui
+                    [10] Chat Bypass
+                  [11] Bedwars OP Gui
+              [12] Tower of Hell GHub Gui
+                   
 
-                  {Fore.RESET}{Style.NORMAL}
+                 {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
              Ctrl F to search for a script!{Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}""")
@@ -131,21 +141,85 @@ def main():
     print(f"              You can now close the app.")
     time.sleep(30)
   elif options == 5:
-    s5()
-  elif options == 5:
-    s5()
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Karz1337/ZordOverParty/main/Zord3Crack"))()'
+    scriptname = 'Da Hood Fps Aimlock'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
   elif options == 6:
-    s6()
+    script = "loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Knife-Ability-Test-Script/main/Knife%20Ability%20Test%20Script'))()"
+    scriptname = 'KAT Autofarm Gui'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
   elif options == 7:
-    s7()
+    script = 'loadstring(game:HttpGet("https://hastebin.com/raw/nehumukoxa.md"))()'
+    scriptname = 'Strongman Simulator Autofarm'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
   elif options == 8:
-    s8()
+    script = 'loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx", true))()'
+    scriptname = 'KAT OP Gui'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
   elif options == 9:
-    s9()
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/laderite/zenhub/main/script"))()'
+    scriptname = 'Trade Tower Farming Gui'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
   elif options == 10:
-    s10()
+    script = 'loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()'
+    scriptname = 'Chat Bypass'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
   elif options == 11:
-    s11()
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()'
+    scriptname = 'Bedwars OP Gui'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
+  elif options == 12:
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()'
+    scriptname = 'Tower of Hell GHub Gui'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
   elif options == 11:
     s5()
   elif options == 12:
