@@ -54,7 +54,7 @@ def scriptplate():
     scripty.close()
     print(f"                    Script Pasted!")
     print(f"              You can now close the app.")
-    time.sleep(999999999999999)
+    time.sleep(6000)
 
 
 
@@ -149,7 +149,7 @@ def main():
     scripty.close()
     print(f"                    Script Pasted!")
     print(f"              You can now close the app.")
-    time.sleep(999999999999999)
+    time.sleep(6000)
   elif options == 2:
     script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/racemodex/my-scripts/master/dahoodcrash", true))()'
     scriptname = 'Da Hood Crash'
@@ -158,7 +158,7 @@ def main():
     scripty.close()
     print(f"                    Script Pasted!")
     print(f"              You can now close the app.")
-    time.sleep(999999999999999)
+    time.sleep(6000)
   elif options == 3:
     script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Karz1337/ZordOverParty/main/Zord3Crack"))()'
     scriptname = 'Da Hood Aimlock'
@@ -167,7 +167,7 @@ def main():
     scripty.close()
     print(f"                    Script Pasted!")
     print(f"              You can now close the app.")
-    time.sleep(999999999999999)
+    time.sleep(6000)
   elif options == 4:
     script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/hggfgf/scripts/main/mortem%20metallum.txt", true))()'
     scriptname = 'Mortem Metallum GUI'
@@ -176,7 +176,7 @@ def main():
     scripty.close()
     print(f"                    Script Pasted!")
     print(f"              You can now close the app.")
-    time.sleep(999999999999999)
+    time.sleep(6000)
   elif options == 5:
     s5()
   elif options == 5:
