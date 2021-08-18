@@ -97,7 +97,6 @@ def main():
                     [10] Chat Bypass
                   [11] Bedwars OP Gui
               [12] Tower of Hell GHub Gui
-                   
 
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
