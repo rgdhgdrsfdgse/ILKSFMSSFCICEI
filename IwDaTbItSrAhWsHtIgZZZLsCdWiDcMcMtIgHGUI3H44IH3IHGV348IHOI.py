@@ -97,6 +97,44 @@ def main():
                     [10] Chat Bypass
                   [11] Bedwars OP Gui
               [12] Tower of Hell GHub Gui
+                    [13] Da Hood Nuke
+                   [14] Fates Admin V2
+               [15] Anime Warriors Autofarm
+                [16] Pet Simulator X Gui
+      [17] Millionaire Empire Tycoon Infinity money
+                          [18]
+                          [19]
+                          [20]
+                          [21]
+                          [22]
+                          [23]
+                          [24]
+                          [25]
+                          [26]
+                          [27]
+                          [28]
+                          [29]
+                          [30]
+                          [31]
+                          [32]
+                          [33]
+                          [34]
+                          [35]
+                          [36]
+                          [37]
+                          [38]
+                          [39]
+                          [40]
+                          [41]
+                          [42]
+                          [43]
+                          [44]
+                          [45]
+                          [46]
+                          [47]
+                          [48]
+                          [49]
+                          [50]
 
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
@@ -219,6 +257,123 @@ def main():
     print(f"              You can now close the app.")
     time.sleep(30)
 
+  elif options == 13:
+    script = "loadstring(game:HttpGet('https://raw.githubusercontent.com/IcxyLol/nuke/main/README.md'))()"
+    scriptname = 'Da Hood Nuke'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
+  elif options == 14:
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();'
+    scriptname = 'Fates Admin V2'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+
+  elif options == 15:
+    script = "loadstring(game:HttpGet('https://raw.githubusercontent.com/insanedude59/AnimeWarriors/main/Output.lua'))()"
+    scriptname = 'Anime Warriors Autofarm'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+  elif options == 16:
+    script = 'loadstring(game:HttpGet("https://pastebin.com/raw/95HthyJq"))()'
+    scriptname = 'Pet Simulator X Gui'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+  elif options == 17:
+    script = 'game:GetService("ReplicatedStorage").updateCollector:FireServer(1e18)'
+    scriptname = 'Millionaire Empire Tycoon Infinity money'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+  elif options == 18:
+    s16()
+  elif options == 18:
+    s17()
+  elif options == 19:
+    s18()
+  elif options == 20:
+    s19()
+  elif options == 21:
+    s20()
+  elif options == 22:
+    s21()
+  elif options == 23:
+    s22()
+  elif options == 24:
+    s23()
+  elif options == 25:
+    s24()
+  elif options == 26:
+    s25()
+  elif options == 27:
+    s26()
+  elif options == 28:
+    s27()
+  elif options == 29:
+    s28()
+  elif options == 30:
+    s29()
+  elif options == 31:
+    s30()
+  elif options == 32:
+    s31()
+  elif options == 33:
+    s32()
+  elif options == 34:
+    s33()
+  elif options == 35:
+    s34()
+  elif options == 36:
+    s35()
+  elif options == 37:
+    s36()
+  elif options == 38:
+    s37()
+  elif options == 39:
+    s38()
+  elif options == 40:
+    s39()
+  elif options == 41:
+    s40()
+  elif options == 42:
+    s41()
+  elif options == 43:
+    s42()
+  elif options == 44:
+    s43()
+  elif options == 45:
+    s44()
+  elif options == 46:
+    s45()
+  elif options == 47:
+    s46()
+  elif options == 48:
+    s47()
+  elif options == 49:
+    s48()
+  elif options == 50:
+    s49()
+  elif options == 51:
+    s50()
   else:
     print("              This is not a valid option.")
     time.sleep(3)
