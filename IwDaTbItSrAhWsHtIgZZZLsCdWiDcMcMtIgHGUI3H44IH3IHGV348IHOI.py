@@ -92,16 +92,19 @@ def main():
                  [5] Da Hood Fps Aimlock
                   [6] KAT Autofarm Gui
             [7] Strongman Simulator Autofarm
-                    [8] KAT OP Gui
-                [9] Trade Tower Farming Gui
+                     [8] KAT OP Gui
+               [9] Trade Tower Farming Gui
                     [10] Chat Bypass
-                  [11] Bedwars OP Gui
-              [12] Tower of Hell GHub Gui
+                   [11] Bedwars OP Gui
+               [12] Tower of Hell GHub Gui
                     [13] Da Hood Nuke
                    [14] Fates Admin V2
                [15] Anime Warriors Autofarm
-                [16] Pet Simulator X Gui
-      [17] Millionaire Empire Tycoon Infinity money
+                 [16] Pet Simulator X Gui
+       [17] Millionaire Empire Tycoon Infinity money
+                  [18] East Brickton GUI
+                 [19] RoBeats Auto Player
+                  [20] Universal Aimbot
 
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
@@ -265,6 +268,33 @@ def main():
   elif options == 17:
     script = 'game:GetService("ReplicatedStorage").updateCollector:FireServer(1e18)'
     scriptname = 'Millionaire Empire Tycoon Infinity money'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+  elif options == 18:
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/IlIlIllIIlI/Scripts/main/EastBrickton.lua", true))()'
+    scriptname = 'East Brickton GUI'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+  elif options == 19:
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/RoBeats/master/Main.lua"))();'
+    scriptname = 'RoBeats Auto Player'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+  elif options == 20:
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()'
+    scriptname = 'Universal Aimbot'
     scripty = open(f"{scriptname}.txt","w")
     scripty.write(f"{script}")
     scripty.close()
