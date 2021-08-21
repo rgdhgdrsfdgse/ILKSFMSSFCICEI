@@ -105,6 +105,7 @@ def main():
                   [18] East Brickton GUI
                  [19] RoBeats Auto Player
                   [20] Universal Aimbot
+                    [21] The Lift Gui
 
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
@@ -295,6 +296,15 @@ def main():
   elif options == 20:
     script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()'
     scriptname = 'Universal Aimbot'
+    scripty = open(f"{scriptname}.txt","w")
+    scripty.write(f"{script}")
+    scripty.close()
+    print(f"                    Script Pasted!")
+    print(f"              You can now close the app.")
+    time.sleep(30)
+  elif options == 21:
+    script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/timkaMLG1/TheLiftFucker/main/main.lua",true))()'
+    scriptname = 'The Lift Gui'
     scripty = open(f"{scriptname}.txt","w")
     scripty.write(f"{script}")
     scripty.close()
