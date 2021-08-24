@@ -107,6 +107,11 @@ def main():
                     [21] The Lift Gui
                 [22] Anomic Alwayswin Gui
               [23] Lumber Tycoon Dupe Money
+           [24] Your Bizarre Adventure Item Esp
+              [25] Da Hood Silent aim / Lock
+                [26] Infinite Yield Admin
+                       [27] OwlHub
+              [28] Car Crusher 2 Gui AutoFarm
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
              Ctrl F to search for a script!{Fore.RESET}{Style.NORMAL}
@@ -352,6 +357,56 @@ def main():
       print(f"              You can now close the app.")
       time.sleep(30)
       exit()
+    elif options == 24:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/toeydeklnw/HUB-obfuscator/main/YBA%20ITEMS%20ESP"))()'
+      scriptname = 'Your Bizarre Adventure Item Esp'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 25:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Da%20Hood/SilentAimAimLock.lua"))()'
+      scriptname = 'Da Hood Silent aim / Lock'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 26:
+      script = "loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()"
+      scriptname = 'Infinite Yield Admin'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 27:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();'
+      scriptname = 'OwlHub'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 28:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()'
+      scriptname = 'Car Crusher 2 Gui AutoFarm'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
     else:
       print("              This is not a valid option.")
       time.sleep(3)
@@ -367,6 +422,10 @@ def main():
                [5] Tower Defense Simulator
                       [6] Mad City
                       [7] Arsenal
+                 [8] Lifting Simulator
+                      [9] Ro-Ghoul
+                    [10] Blox Fruits
+                  [11] Pet Simulator X
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}""")
     options = int(input(f"""                   Input Server ID: """))
@@ -414,6 +473,34 @@ def main():
       exit()
     elif options == 7:
       ServerLink = "https://www.roblox.com/games/286090429/Arsenal?privateServerLinkCode=21613709739907904650675643728245"
+      webbrowser.open(ServerLink)
+      print(f"                    Server Opened!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 8:
+      ServerLink = "https://www.roblox.com/games/3652625463/Lifting-Simulator?privateServerLinkCode=45953442128588141433177667242122"
+      webbrowser.open(ServerLink)
+      print(f"                    Server Opened!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 9:
+      ServerLink = "https://www.roblox.com/games/914010731/Higher-Mind-Ro-Ghoul-ALPHA?privateServerLinkCode=46170764787898345230109717666315"
+      webbrowser.open(ServerLink)
+      print(f"                    Server Opened!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 10:
+      ServerLink = "https://www.roblox.com/games/2753915549/UPDATE-14-Blox-Fruits?privateServerLinkCode=00419009354889845583304086137834"
+      webbrowser.open(ServerLink)
+      print(f"                    Server Opened!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 11:
+      ServerLink = "https://www.roblox.com/games/6284583030/MYTHICAL-Pet-Simulator-X?privateServerLinkCode=33526366351153821793316599088079"
       webbrowser.open(ServerLink)
       print(f"                    Server Opened!")
       print(f"              You can now close the app.")
