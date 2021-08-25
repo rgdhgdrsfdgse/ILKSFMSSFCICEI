@@ -17,7 +17,6 @@ time.sleep(0.3)
 ctypes.windll.kernel32.SetConsoleTitleW(f'Thundux v{ver} [BETA] | Loading.')
 time.sleep(0.3)
 ctypes.windll.kernel32.SetConsoleTitleW(f'Thundux v{ver} [BETA] | Launched!')
-webbrowser.open("https://discord.gg/V4kShbhMpx")
 
 
 
