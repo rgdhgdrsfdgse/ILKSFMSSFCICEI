@@ -31,7 +31,6 @@ ctypes.windll.kernel32.SetConsoleTitleW(f'Thundux v{ver} [BETA] | Launched!')
 
 
 
-
 #                        .▄▄ ·  ▄▄· ▄▄▄  ▪   ▄▄▄·▄▄▄▄▄.▄▄ ·                 
 #        ▪     ▪         ▐█ ▀. ▐█ ▌▪▀▄ █·██ ▐█ ▄█•██  ▐█ ▀.     ▪     ▪     
 #         ▄█▀▄  ▄█▀▄     ▄▀▀▀█▄██ ▄▄▐▀▀▄ ▐█· ██▀· ▐█.▪▄▀▀▀█▄     ▄█▀▄  ▄█▀▄ 
@@ -111,6 +110,10 @@ def main():
                 [26] Infinite Yield Admin
                        [27] OwlHub
               [28] Car Crusher 2 Gui AutoFarm
+           [29] Robloxian High School Mods V3 Gui
+               [30] Myth Piece Autfofarm Gui
+                [31] King Legacy Auto Farm
+          [32] Whack People Free Weapons Gamepass
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
              Ctrl F to search for a script!{Fore.RESET}{Style.NORMAL}
@@ -399,6 +402,46 @@ def main():
     elif options == 28:
       script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/CarCrushers.lua"))()'
       scriptname = 'Car Crusher 2 Gui AutoFarm'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 29:
+      script = "loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nazor1/RHS-MODS-V3/main/RHSMODSV3.1%20OBFUSCATED.lua')))()"
+      scriptname = 'Robloxian High School Mods V3 Gui'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 30:
+      script = "loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/MythPiece'),true))()"
+      scriptname = 'Myth Piece Autfofarm Gui'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 31:
+      script = "loadstring(game:HttpGet('https://raw.githubusercontent.com/Reset0817/Scripts/main/KingLegacy'))()"
+      scriptname = 'King Legacy Auto Farm'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 32:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/heber126/eeeee/main/e"))()'
+      scriptname = 'Whack People Free Weapons Gamepass'
       scripty = open(f"{scriptname}.txt","w")
       scripty.write(f"{script}")
       scripty.close()
