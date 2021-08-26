@@ -114,6 +114,7 @@ def main():
                [30] Myth Piece Autfofarm Gui
                 [31] King Legacy Auto Farm
           [32] Whack People Free Weapons Gamepass
+                  [33] Bedwars Vape Gui
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
              Ctrl F to search for a script!{Fore.RESET}{Style.NORMAL}
@@ -442,6 +443,16 @@ def main():
     elif options == 32:
       script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/heber126/eeeee/main/e"))()'
       scriptname = 'Whack People Free Weapons Gamepass'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 33:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()'
+      scriptname = 'Bedwars Vape Gui'
       scripty = open(f"{scriptname}.txt","w")
       scripty.write(f"{script}")
       scripty.close()
