@@ -115,6 +115,9 @@ def main():
                 [31] King Legacy Auto Farm
           [32] Whack People Free Weapons Gamepass
                   [33] Bedwars Vape Gui
+                  [34] Base Battles Gui
+       [35] Fling Things and People Click void fling
+             [36] Da Hood suicide (In fun gui)
                  {Fore.RESET}{Style.NORMAL}
                  ——————————X——————————{Fore.CYAN}{Style.BRIGHT}
              Ctrl F to search for a script!{Fore.RESET}{Style.NORMAL}
@@ -460,6 +463,36 @@ def main():
       print(f"              You can now close the app.")
       time.sleep(30)
       exit()
+    elif options == 34:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/WetCheezit/Base-Battles/main/.lua"))()'
+      scriptname = 'Base Battles Gui'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 35:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ShrimpsHub/ShrimpsHub/main/ShrimpsHub"))()'
+      scriptname = 'Fling Things and People Click void fling'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
+    elif options == 36:
+      script = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()'
+      scriptname = 'Da Hood suicide (In fun gui)'
+      scripty = open(f"{scriptname}.txt","w")
+      scripty.write(f"{script}")
+      scripty.close()
+      print(f"                    Script Pasted!")
+      print(f"              You can now close the app.")
+      time.sleep(30)
+      exit()
     else:
       print("              This is not a valid option.")
       time.sleep(3)
@@ -518,7 +551,7 @@ def main():
       time.sleep(30)
       exit()
     elif options == 6:
-      ServerLink = "https://www.roblox.com/games/1224212277/Mad-City?privateServerLinkCode=00283821272399086213131107454318"
+      ServerLink = "https://www.roblox.com/games/1224212277/Mad-City?privateServerLinkCode=18453605690528050454932149409946"
       webbrowser.open(ServerLink)
       print(f"                    Server Opened!")
       print(f"              You can now close the app.")
